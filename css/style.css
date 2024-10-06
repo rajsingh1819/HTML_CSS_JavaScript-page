@@ -1,0 +1,864 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* First Section */
+.header {
+  width: 100%;
+  height: 100px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 122.07px;
+  height: 32px;
+  top: 34px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+.header .image-logo {
+  width: 22.52px;
+  height: 22.52px;
+  top: 2.96px;
+  gap: 0px;
+  opacity: 0px;
+  background: #cccccc;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.header .logo p {
+  width: 87.7px;
+  height: 32px;
+  left: 34.37px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Comfortaa;
+  font-size: 28.44px;
+  font-weight: 400;
+  line-height: 31.72px;
+  letter-spacing: -0.015em;
+  text-align: center;
+}
+
+.header .elements {
+  display: flex;
+  justify-content: space-evenly;
+  width: 388px;
+  height: 18px;
+  top: 41px;
+  left: 646px;
+  gap: 0px;
+  opacity: 0px;
+
+  align-items: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+@media (max-width: 510px){
+ 
+  nav a {
+    margin: 0.7rem 0rem;
+    text-decoration: none;
+    color: #333;
+  }
+  .header {
+    width: 100%;
+    height: 130px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    
+  }
+
+}
+
+
+.header .elements p {
+  width: 61px;
+  height: 18px;
+  top: 41px;
+  left: 973px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.29px;
+  letter-spacing: -0.015em;
+  text-align: center;
+}
+
+.header .login-register {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  height: 40px;
+  top: 30px;
+  left: 1320px;
+  gap: 0px;
+  opacity: 0px;
+  justify-content: space-between;
+}
+.header .login-register button {
+  width: 130px;
+  height: 40px;
+  top: 30px;
+  left: 1320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.header .login-register .register:hover {
+  background-color: #0a6dbd;
+}
+.header .login-register .login:hover {
+  background-color: #f7fdfd;
+}
+
+.header .login-register .login {
+  background: #ffffff;
+  border: 1px solid rgba(24, 160, 251, 1);
+  color: #18a0fb;
+}
+.header .login-register .register {
+  background: #18a0fb;
+  border-style: none;
+  border: 1px solid rgba(24, 160, 251, 1);
+  color: #ffffff;
+}
+/* completed */
+
+/* second section */
+
+.backGround-image {
+  background: url("../Assets/images/scott-graham-5fNmWej4tAA-unsplash%201.png")
+    no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+/* Style for the text */
+.backGround-image .community {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: 12rem;
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  text-align: center;
+  color: #ffffff;
+}
+
+.backGround-image .text {
+  font-family: Montserrat;
+  font-size: 3.8rem;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+.backGround-image button {
+  width: 192px;
+  height: 52px;
+  gap: 0px;
+  border-radius: 0.8rem;
+  opacity: 0px;
+  background: #18a0fb;
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 20.72px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  border-style: none;
+  color: #ffffff;
+}
+.backGround-image button:hover {
+  background-color: #0a6dbd;
+}
+
+@media (max-width: 600px) {
+  .backGround-image .community {
+    width: 100%;
+
+    height: 80px;
+    position: absolute;
+    bottom: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #ffffff;
+  }
+  .backGround-image .text {
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    margin-bottom: 0.4rem;
+  }
+}
+
+/* section -3 */
+.box-3 {
+  width: 100%;
+  padding: 20px;
+  background: #ffffff;
+
+  margin-bottom: 2%;
+}
+
+.box-3 .parent {
+  width: calc(100% - 160px); /* 80px margin on left and right */
+  margin: 120px auto 0px; /* Auto to center the content */
+}
+
+.box-3 .parent p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #000000;
+}
+
+.box-3 .childrens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto; /* Center content */
+  width: calc(100% - 130px); /* 80px margin on left and right */
+  justify-content: space-between;
+}
+
+.box-3 .childrens .child {
+  width: 48%; /* Default for larger screens */
+  height: auto;
+  /* background-color: aqua; */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box-3 .childrens .child .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.box-3 .childrens .child .discription {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.box-3 .childrens .child .action {
+  width: auto;
+  padding: 10px 20px;
+  background: #18a0fb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box-3 .childrens .child .action:hover {
+  background-color: #0a6dbd;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .box-3 .parent,
+  .box-3 .childrens {
+    width: calc(100% - 40px); /* Smaller margins for tablets */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .box-3 .parent p {
+    font-size: 2rem;
+  }
+
+  .box-3 .childrens .child {
+    width: 100%; /* Full width for tablet screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .box-3 .parent,
+  .box-3 .childrens {
+    width: calc(100% - 20px); /* Smaller margins for mobile */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .box-3 .parent p {
+    font-size: 1.5rem;
+  }
+
+  .box-3 .childrens {
+    flex-direction: column; /* Stack children vertically on small screens */
+  }
+
+  .box-3 .childrens .child {
+    width: 100%; /* Full width for each child on mobile screens */
+  }
+}
+
+/* section-4 */
+
+.box-4 {
+  width: 100%;
+  height: 8vh;
+  background-color: #f0ebeb;
+}
+
+/* section-5 */
+
+.box-5 {
+  width: 100%;
+  background: #ffffff;
+  padding: 0 80px; /* Adding padding for left and right margins */
+  margin-bottom: 4%;
+}
+
+.box-5 .section-1 {
+  margin: 3% 0;
+  text-align: center;
+}
+
+.box-5 .section-1 .text-1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+}
+
+.box-5 .section-1 .text-2 {
+  margin-top: 1%;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  color: #666666;
+}
+
+/* Styles for section-2 */
+.box-5 .section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.box-5 .section-2 .option-1 {
+  width: 48%;
+}
+
+.box-5 .section-2 .option-1 .text3 {
+  margin: 40px 0;
+}
+
+.box-5 .section-2 .option-1 .text3 p:first-child {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.box-5 .section-2 .option-1 .text3 p:last-child {
+  font-size: 1rem;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.box-5 .section-2 .option-2 {
+  width: 48%;
+}
+
+.box-5 .section-2 .option-2 img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Medium screens (tablets and smaller desktops) */
+@media screen and (max-width: 1024px) {
+  .box-5 {
+    padding: 0 40px; /* Reduce left and right padding */
+  }
+
+  .box-5 .section-1 .text-1 {
+    font-size: 1.8rem; /* Slightly smaller font */
+  }
+
+  .box-5 .section-1 .text-2 {
+    font-size: 28px; /* Adjust font size */
+    line-height: 45px;
+  }
+
+  .box-5 .section-2 {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .box-5 .section-2 .option-1,
+  .box-5 .section-2 .option-2 {
+    width: 100%; /* Make each section full-width */
+    text-align: center;
+  }
+
+  .box-5 .section-2 .option-2 img {
+    width: 80%; /* Reduce image size */
+  }
+}
+
+/* Small screens (mobile devices) */
+@media screen and (max-width: 768px) {
+  .box-5 {
+    padding: 0 20px; /* Further reduce padding for small screens */
+  }
+
+  .box-5 .section-1 .text-1 {
+    font-size: 1.6rem; /* Smaller font */
+    line-height: 35px;
+  }
+
+  .box-5 .section-1 .text-2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .box-5 .section-2 .option-1 .text3 p:first-child {
+    font-size: 1.3rem; /* Adjust text size for mobile */
+  }
+
+  .box-5 .section-2 .option-1 .text3 p:last-child {
+    font-size: 0.9rem; /* Adjust text size for mobile */
+  }
+
+  .box-5 .section-2 .option-2 img {
+    width: 90%; /* Make image smaller on mobile */
+  }
+}
+
+/* General styles for large screens */
+.box-5 .card-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto; /* Center content */
+  justify-content: space-between;
+}
+
+.box-5 .card-section .card {
+  width: 30%; /* Default width for larger screens */
+  padding: 0; /* Remove padding for cleaner border */
+  box-sizing: border-box;
+  /* text-align: center; */
+  border: 1px solid #cccccc; /* Add border around card */
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.box-5 .card-section .card img {
+  width: 100%; /* Image takes full width of the card */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra spacing under the image */
+}
+
+.box-5 .card-section .card .textstyle {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  /* padding: 10px; */
+  padding: 0rem 2rem;
+  color: #000000;
+}
+
+.box-5 .card-section .card p {
+  margin-top: 4%;
+  font-size: 1rem;
+  line-height: 1.5; /* Increase line height for readability */
+  color: #666666;
+  padding: 0rem 2rem 1.3rem;
+}
+
+/* Responsive styles */
+
+/* Medium screens (tablets and smaller desktops) */
+@media screen and (max-width: 1024px) {
+  .box-5 .card-section .card {
+    width: 45%; /* Adjust to fit two cards per row on medium screens */
+  }
+}
+
+/* Small screens (mobile devices) */
+@media screen and (max-width: 768px) {
+  .box-5 .card-section {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards on mobile */
+  }
+
+  .box-5 .card-section .card {
+    width: 90%; /* Full width on small screens */
+    margin-bottom: 20px; /* Add space between cards */
+  }
+}
+
+/* Center the form container */
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.sign-up-section {
+  width: 622px;
+  height: auto;
+  padding: 4rem;
+  border: 1px solid #00000080;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  /* text-align: center; */
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between; /* Ensure items are spaced evenly */
+  gap: 20px; /* Space between inputs */
+}
+
+.form-row input {
+  flex: 1; /* Allow inputs to grow to fill space */
+  min-width: 200px; /* Set a minimum width for the inputs */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #c4c4c4;
+
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button.register-btn {
+  width: 140px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  /* background-color: #4caf50; */
+  background: #18a0fb;
+
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Responsive for smaller screens */
+@media screen and (max-width: 768px) {
+  .form-row {
+    flex-direction: column; /* Stack inputs on small screens */
+  }
+
+  .sign-up-section {
+    width: 90%; /* Adjust section width for mobile */
+  }
+}
+
+/* General Footer Styles */
+footer {
+  width: 100%;
+  background: #000000cc;
+  padding: 2rem 0;
+  color: white;
+}
+
+/* Footer Container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 0 80px;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+}
+
+/* Footer Logo Section */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 1rem;
+  gap: 2%;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.footer-logo p {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 28.44px;
+  font-weight: 400;
+  line-height: 31.72px;
+  margin-top: 0.5rem;
+}
+
+/* Footer Content Section */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 50%; /* Takes remaining 50% */
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-text {
+  margin-right: 2rem;
+}
+
+.footer-text h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer-text p {
+  margin: 0.1rem 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffffcc;
+}
+
+/* Register/Login Button Section */
+.footer-register {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-register .footer-login {
+  background: #ffffff;
+  border: 1px solid rgba(24, 160, 251, 1);
+  color: #18a0fb;
+}
+
+.footer-register button {
+  padding: 0.6rem 2rem;
+  background-color: #18a0fb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-register button:hover {
+  background-color: #0d7bc2;
+}
+
+.footer-register .footer-login:hover {
+  background-color: #f7fdfd;
+}
+
+@media screen and (max-width: 964px) {
+  .footer-content {
+    display: flex;
+    justify-content: unset;
+    width: 50%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 14px;
+  padding: 2rem 80px;
+  box-sizing: border-box;
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid #ffffff50;
+  margin-bottom: 1rem;
+}
+
+.footer-bottom .inside-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Footer Icon Section */
+.footer-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-icon p {
+  margin-right: 10px;
+}
+
+/* Social Media Icon Styles */
+.fa-brands {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.footer-icon .icon {
+  width: 40px; /* Reduced size for better fit on mobile */
+  height: 40px;
+  background: #4b4b4b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover Effect for Social Icons */
+.footer-icon .icon:hover {
+  background: #cccccc;
+  color: #000;
+}
+
+.fa-brands:hover {
+  color: #000; /* Change icon color on hover */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 2rem;
+  }
+
+  .footer-logo,
+  .footer-content {
+    width: 100%; /* Make both full-width */
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .footer-logo {
+    align-items: center; /* Center logo on smaller screens */
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-register {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer-bottom .inside-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .footer-icon {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .line {
+    padding: 0;
+  }
+}
+
+/* For Very Small Screens */
+@media screen and (max-width: 480px) {
+  .footer-container {
+    padding: 1rem 20px;
+  }
+
+  .footer-text h2 {
+    font-size: 16px;
+  }
+
+  .footer-text p {
+    font-size: 12px;
+  }
+
+  .footer-register button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .footer-icon .icon {
+    width: 35px; /* Further reduce size for mobile */
+    height: 35px;
+  }
+}
